@@ -1,0 +1,195 @@
+
+
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto:wght@100&display=swap');
+
+body {
+    background: 
+      radial-gradient(black 3px, transparent 4px),
+      radial-gradient(black 3px, transparent 4px),
+      linear-gradient(#fff 4px, transparent 0),
+      linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+      linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    font-family: 'roboto', sans-serif;
+  }
+
+.chiquito{
+    width: 30px;
+    height: 30px;
+}
+
+.chiquita{
+    width: 150x;
+    height: 100px;
+}
+
+.contenido{
+    background: white;
+    width: 90%; 
+    max-width: 1000px;
+    margin: 1.6em auto ;
+    display: grid;
+    gap: 1.6em;
+
+    grid-template-columns:repeat(5, 1fr);
+
+
+}
+.menu{
+    display: flex;
+    background: gray;
+    width: 90%; 
+    max-width: 1000px;
+    margin: 1.6em auto ;
+}
+
+.boton-menu{
+    margin-left: 10%;
+    margin-top: 1%;
+    color: gray;
+    text-decoration: none;
+}
+
+.boton-menu:hover{
+    color: antiquewhite;
+}
+
+.contenido  .menu,
+.contenido  .principal,
+.contenido  .footer{
+
+    background: white;
+    padding: 20px;
+    border: 1px solid;
+}
+.sidebar{
+    
+    background: darkgray;
+    padding: 20px;
+    border: 1px solid;
+}
+
+.sidebar p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contenido .menu,
+.contenido .footer{
+    background-color: #0d0762;
+    color: #fff;
+    grid-column: 1/6;
+}
+
+.contenido .principal{
+    grid-column: span 3;
+}
+.contenido .sidebar{
+    grid-column: span 2;
+}
+
+.cuadrados{
+height: 75px;
+background: black;
+color: antiquewhite;
+padding: 20px;
+border: 1px solid;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.5s ease;
+
+}
+.cuadrados:hover{
+    background: gray;
+    color: black;
+
+}
+
+
+.contenido .articulo{
+    background: darkgray;
+    padding: 20px;
+    margin: 5px;
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.botoncitos{
+    text-decoration: none;
+    color: white;
+}
+.botoncitos:hover{
+    color: black;
+}
+.imagenart{
+    width: 100px;
+    height:80px ;
+}
+.imagenesart img{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+@media (max-width: 640px){
+ 
+    .contenido .menu{
+        display: inline-block;
+    }
+    .contenido .principal{
+        grid-column: 1/-1 ;
+    }
+    .contenido .sidebar{
+        grid-column: 1/-1 ;
+    }
+    .contenido .cuadrados{
+        grid-column: 1/-1;
+    }
+
+}
+
+.pagina2{
+    background: gray;
+    width: 90%; 
+    max-width: 1000px;
+    margin: 1.6em auto ;
+    display: grid;
+    gap: 1.6em;
+
+    grid-template-columns:repeat(2, 1fr);
+
+}
+.pagina2 h2{
+    text-align: center;
+}
+.pagina2 input{
+    width: 100%;
+    margin: 20px;
+    height: 10%;
+}
+
+.iframe{
+    margin: 10%;
+    
+    width: 80%;
+    
+}
+
+
+
