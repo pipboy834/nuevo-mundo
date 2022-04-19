@@ -134,9 +134,11 @@ transition: all 0.5s ease;
 .botoncitos{
     text-decoration: none;
     color: white;
+    opacity: 0.6;
 }
 .botoncitos:hover{
     color: black;
+    opacity: 1;
 }
 .imagenart{
     width: 100px;
@@ -191,4 +193,59 @@ transition: all 0.5s ease;
     
 }
 
+.div-aside{
+    margin-bottom: 20%;
+}
+#acordeon-faq{
+    width: 90%; 
+    max-width: 1000px;
+    margin: 1.6em auto ;
+    display: grid;
+    gap: 1.6em;
+    background: white;
+}
+.contenido-footer{
+    background: #0d0762;
+    width: 90%; 
+    max-width: 1000px;
+    margin: 1.6em auto ;
+    display: grid;
+    gap: 1.6em;
+    color: aliceblue;
+    
+}
+#subtitulo-faq{
+    text-align: center; 
+}
 
+
+.dropea{
+    width: 90%; 
+    max-width: 1000px;
+    margin: 1.6em auto ;
+    
+    background: white;
+}
+.contenido-pag{
+    background: white;
+    width: 90%; 
+    max-width: 1000px;
+    margin: 1.6em auto ;
+    gap: 1.6em;
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+.flexii{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.galeria{
+    margin: 1%;
+    width: 350x;
+    height: 200px;
+}
